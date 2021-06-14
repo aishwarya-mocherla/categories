@@ -1,0 +1,30 @@
+table {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td {
+    padding-bottom: 20px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+@media(max-width:1282px) {
+    img {
+        padding-top: 7px;
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-bottom: 7px;
+        width: 100px;
+        height: 100px;
+    }
+    .extra {
+        display: none;
+    }
+    .heading {
+        display: none;
+    }
+}
