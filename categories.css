@@ -12,6 +12,10 @@ img {
     height: 200px;
 }
 
+.show {
+    display: none;
+}
+
 @media(max-width:1282px) {
     img {
         padding-top: 7px;
@@ -26,5 +30,8 @@ img {
     }
     .heading {
         display: none;
+    }
+    .show {
+        display: block;
     }
 }
